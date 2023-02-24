@@ -22,7 +22,6 @@ Tomkan/             # → Główny folder projektu
     ├── img/        # → Zdjęcia
     ├── js/         # → Pliki JS
     └── scss/       # → Pliki SCSS
-├── php/            # → Pliki PHP
 └── dist            # → Katalog z wygenerowaną stroną
 ```
 
