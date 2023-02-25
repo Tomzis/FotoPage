@@ -16,9 +16,10 @@ W folderze głównym wpisujemy komendę `npm i`
 
 ```
 Tomkan/             # → Główny folder projektu
-├── index.html/     # → Główny plik HTML
+├── index.js        # → Główny plik JS
 ├── fav.png         # → Plik do wygenerowania favicony
 └── src/            # → Bazowy folder roboczy
+    ├── html/       # → Pliki HTML
     ├── img/        # → Zdjęcia
     ├── js/         # → Pliki JS
     └── scss/       # → Pliki SCSS
