@@ -1,0 +1,15 @@
+.footer-bottom {
+  background: #000;
+  padding: 2rem 0;
+  text-align: center;
+  .copy {
+    font-style: 1.4rem;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    span {
+      text-transform: uppercase;
+      opacity: 0.4;
+      font-weight: 200;
+    }
+  }
+}

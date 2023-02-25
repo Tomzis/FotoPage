@@ -2,13 +2,17 @@
 @import "global";
 @import "fonts";
 @import "typography";
-// atoms
-// @import "atoms/";
-// atoms end
 
-// molecules
-// @import "molecules/";
-// molecules end
+@import "molecules/navigation";
+@import "molecules/heroWrapper";
+@import "molecules/sectionWrapper";
+@import "molecules/sectionForm";
+@import "molecules/slider";
+@import "molecules/footerContent";
+@import "molecules/footerBottom";
+@import "molecules/sectionTable";
 
-// organisms
-// @import "organisms/";
+@import "organisms/header";
+@import "organisms/hero";
+@import "organisms/section";
+@import "organisms/footer";

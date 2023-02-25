@@ -1,0 +1,28 @@
+.section__table-wrapper{
+  table {
+    width: 100%;
+    border-spacing: 0;
+  }
+
+  table td,
+  th {
+    font-size: 14px;
+    border-bottom: 1px solid #e0dfdf;
+    padding: 10px 12px;
+    text-align: left;
+  }
+
+  table tr:last-child td {
+    border: none;
+  }
+
+  table th {
+    font-weight: 700;
+    font-size: 18px;
+  }
+}
+
+.section__table-wrapper table thead tr,
+.section__table-wrapper table tr:nth-child(even) {
+  background: #fafafa;
+}

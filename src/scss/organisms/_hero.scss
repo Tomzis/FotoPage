@@ -1,0 +1,38 @@
+.hero {
+  height: 100vh;
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 8rem 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  @media only screen and (orientation: landscape) {
+    padding: 3rem 1.5rem 0;
+  }
+}
+
+.hero--homepage {
+  background-image: url(/src/img/background1.jpg);
+}
+.hero--aparaty {
+  background-image: url(/src/img/background2.jpg);
+}
+.hero--galeria {
+  background-image: url(/src/img/background3.jpg);
+}
+.hero--kontakt {
+  background-image: url(/src/img/background4.jpg);
+}
